@@ -16,6 +16,7 @@
 		20BA8D3F26163FDA00AC3EB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BA8D3E26163FDA00AC3EB3 /* main.m */; };
 		20BA8D4926163FDA00AC3EB3 /* ReadiOSMemoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BA8D4826163FDA00AC3EB3 /* ReadiOSMemoryTests.m */; };
 		20BA8D5426163FDA00AC3EB3 /* ReadiOSMemoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BA8D5326163FDA00AC3EB3 /* ReadiOSMemoryUITests.m */; };
+		20BA8D672616405F00AC3EB3 /* ReadMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BA8D662616405F00AC3EB3 /* ReadMemory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		20BA8D4F26163FDA00AC3EB3 /* ReadiOSMemoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadiOSMemoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20BA8D5326163FDA00AC3EB3 /* ReadiOSMemoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadiOSMemoryUITests.m; sourceTree = "<group>"; };
 		20BA8D5526163FDA00AC3EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20BA8D652616405F00AC3EB3 /* ReadMemory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadMemory.h; sourceTree = "<group>"; };
+		20BA8D662616405F00AC3EB3 /* ReadMemory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadMemory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 		20BA8D2026163FD700AC3EB3 = {
 			isa = PBXGroup;
 			children = (
+				20BA8D6426163FF200AC3EB3 /* ReadMemory */,
 				20BA8D2B26163FD700AC3EB3 /* ReadiOSMemory */,
 				20BA8D4726163FDA00AC3EB3 /* ReadiOSMemoryTests */,
 				20BA8D5226163FDA00AC3EB3 /* ReadiOSMemoryUITests */,
@@ -135,6 +139,15 @@
 				20BA8D5526163FDA00AC3EB3 /* Info.plist */,
 			);
 			path = ReadiOSMemoryUITests;
+			sourceTree = "<group>";
+		};
+		20BA8D6426163FF200AC3EB3 /* ReadMemory */ = {
+			isa = PBXGroup;
+			children = (
+				20BA8D652616405F00AC3EB3 /* ReadMemory.h */,
+				20BA8D662616405F00AC3EB3 /* ReadMemory.m */,
+			);
+			path = ReadMemory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +282,7 @@
 				20BA8D3426163FD700AC3EB3 /* ViewController.m in Sources */,
 				20BA8D2E26163FD700AC3EB3 /* AppDelegate.m in Sources */,
 				20BA8D3F26163FDA00AC3EB3 /* main.m in Sources */,
+				20BA8D672616405F00AC3EB3 /* ReadMemory.m in Sources */,
 				20BA8D3126163FD700AC3EB3 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

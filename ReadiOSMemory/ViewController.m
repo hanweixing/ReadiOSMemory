@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "ReadMemory.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    u_long usedMemory = [ReadMemory getUsedMemory];
+    u_long freeMemory = [ReadMemory getFreeMemory];
+    
+    NSLog(@"Memory has been used %lu", usedMemory);
+    NSLog(@"Memory has been left %lu", freeMemory);
 }
 
 
