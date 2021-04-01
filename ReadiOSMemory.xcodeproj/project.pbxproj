@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20BA8D2E26163FD700AC3EB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BA8D2D26163FD700AC3EB3 /* AppDelegate.m */; };
+		20BA8D3126163FD700AC3EB3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BA8D3026163FD700AC3EB3 /* SceneDelegate.m */; };
+		20BA8D3426163FD700AC3EB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BA8D3326163FD700AC3EB3 /* ViewController.m */; };
+		20BA8D3726163FD700AC3EB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BA8D3526163FD700AC3EB3 /* Main.storyboard */; };
+		20BA8D3926163FDA00AC3EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BA8D3826163FDA00AC3EB3 /* Assets.xcassets */; };
+		20BA8D3C26163FDA00AC3EB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BA8D3A26163FDA00AC3EB3 /* LaunchScreen.storyboard */; };
+		20BA8D3F26163FDA00AC3EB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BA8D3E26163FDA00AC3EB3 /* main.m */; };
+		20BA8D4926163FDA00AC3EB3 /* ReadiOSMemoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BA8D4826163FDA00AC3EB3 /* ReadiOSMemoryTests.m */; };
+		20BA8D5426163FDA00AC3EB3 /* ReadiOSMemoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BA8D5326163FDA00AC3EB3 /* ReadiOSMemoryUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20BA8D4526163FDA00AC3EB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20BA8D2126163FD700AC3EB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20BA8D2826163FD700AC3EB3;
+			remoteInfo = ReadiOSMemory;
+		};
+		20BA8D5026163FDA00AC3EB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20BA8D2126163FD700AC3EB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20BA8D2826163FD700AC3EB3;
+			remoteInfo = ReadiOSMemory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20BA8D2926163FD700AC3EB3 /* ReadiOSMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadiOSMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BA8D2C26163FD700AC3EB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20BA8D2D26163FD700AC3EB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20BA8D2F26163FD700AC3EB3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		20BA8D3026163FD700AC3EB3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		20BA8D3226163FD700AC3EB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20BA8D3326163FD700AC3EB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20BA8D3626163FD700AC3EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20BA8D3826163FDA00AC3EB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20BA8D3B26163FDA00AC3EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20BA8D3D26163FDA00AC3EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20BA8D3E26163FDA00AC3EB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20BA8D4426163FDA00AC3EB3 /* ReadiOSMemoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadiOSMemoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BA8D4826163FDA00AC3EB3 /* ReadiOSMemoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadiOSMemoryTests.m; sourceTree = "<group>"; };
+		20BA8D4A26163FDA00AC3EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20BA8D4F26163FDA00AC3EB3 /* ReadiOSMemoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadiOSMemoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BA8D5326163FDA00AC3EB3 /* ReadiOSMemoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadiOSMemoryUITests.m; sourceTree = "<group>"; };
+		20BA8D5526163FDA00AC3EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20BA8D2626163FD700AC3EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BA8D4126163FDA00AC3EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BA8D4C26163FDA00AC3EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20BA8D2026163FD700AC3EB3 = {
+			isa = PBXGroup;
+			children = (
+				20BA8D2B26163FD700AC3EB3 /* ReadiOSMemory */,
+				20BA8D4726163FDA00AC3EB3 /* ReadiOSMemoryTests */,
+				20BA8D5226163FDA00AC3EB3 /* ReadiOSMemoryUITests */,
+				20BA8D2A26163FD700AC3EB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20BA8D2A26163FD700AC3EB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20BA8D2926163FD700AC3EB3 /* ReadiOSMemory.app */,
+				20BA8D4426163FDA00AC3EB3 /* ReadiOSMemoryTests.xctest */,
+				20BA8D4F26163FDA00AC3EB3 /* ReadiOSMemoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20BA8D2B26163FD700AC3EB3 /* ReadiOSMemory */ = {
+			isa = PBXGroup;
+			children = (
+				20BA8D2C26163FD700AC3EB3 /* AppDelegate.h */,
+				20BA8D2D26163FD700AC3EB3 /* AppDelegate.m */,
+				20BA8D2F26163FD700AC3EB3 /* SceneDelegate.h */,
+				20BA8D3026163FD700AC3EB3 /* SceneDelegate.m */,
+				20BA8D3226163FD700AC3EB3 /* ViewController.h */,
+				20BA8D3326163FD700AC3EB3 /* ViewController.m */,
+				20BA8D3526163FD700AC3EB3 /* Main.storyboard */,
+				20BA8D3826163FDA00AC3EB3 /* Assets.xcassets */,
+				20BA8D3A26163FDA00AC3EB3 /* LaunchScreen.storyboard */,
+				20BA8D3D26163FDA00AC3EB3 /* Info.plist */,
+				20BA8D3E26163FDA00AC3EB3 /* main.m */,
+			);
+			path = ReadiOSMemory;
+			sourceTree = "<group>";
+		};
+		20BA8D4726163FDA00AC3EB3 /* ReadiOSMemoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				20BA8D4826163FDA00AC3EB3 /* ReadiOSMemoryTests.m */,
+				20BA8D4A26163FDA00AC3EB3 /* Info.plist */,
+			);
+			path = ReadiOSMemoryTests;
+			sourceTree = "<group>";
+		};
+		20BA8D5226163FDA00AC3EB3 /* ReadiOSMemoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20BA8D5326163FDA00AC3EB3 /* ReadiOSMemoryUITests.m */,
+				20BA8D5526163FDA00AC3EB3 /* Info.plist */,
+			);
+			path = ReadiOSMemoryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20BA8D2826163FD700AC3EB3 /* ReadiOSMemory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20BA8D5826163FDA00AC3EB3 /* Build configuration list for PBXNativeTarget "ReadiOSMemory" */;
+			buildPhases = (
+				20BA8D2526163FD700AC3EB3 /* Sources */,
+				20BA8D2626163FD700AC3EB3 /* Frameworks */,
+				20BA8D2726163FD700AC3EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadiOSMemory;
+			productName = ReadiOSMemory;
+			productReference = 20BA8D2926163FD700AC3EB3 /* ReadiOSMemory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20BA8D4326163FDA00AC3EB3 /* ReadiOSMemoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20BA8D5B26163FDA00AC3EB3 /* Build configuration list for PBXNativeTarget "ReadiOSMemoryTests" */;
+			buildPhases = (
+				20BA8D4026163FDA00AC3EB3 /* Sources */,
+				20BA8D4126163FDA00AC3EB3 /* Frameworks */,
+				20BA8D4226163FDA00AC3EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20BA8D4626163FDA00AC3EB3 /* PBXTargetDependency */,
+			);
+			name = ReadiOSMemoryTests;
+			productName = ReadiOSMemoryTests;
+			productReference = 20BA8D4426163FDA00AC3EB3 /* ReadiOSMemoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20BA8D4E26163FDA00AC3EB3 /* ReadiOSMemoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20BA8D5E26163FDA00AC3EB3 /* Build configuration list for PBXNativeTarget "ReadiOSMemoryUITests" */;
+			buildPhases = (
+				20BA8D4B26163FDA00AC3EB3 /* Sources */,
+				20BA8D4C26163FDA00AC3EB3 /* Frameworks */,
+				20BA8D4D26163FDA00AC3EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20BA8D5126163FDA00AC3EB3 /* PBXTargetDependency */,
+			);
+			name = ReadiOSMemoryUITests;
+			productName = ReadiOSMemoryUITests;
+			productReference = 20BA8D4F26163FDA00AC3EB3 /* ReadiOSMemoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20BA8D2126163FD700AC3EB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					20BA8D2826163FD700AC3EB3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					20BA8D4326163FDA00AC3EB3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 20BA8D2826163FD700AC3EB3;
+					};
+					20BA8D4E26163FDA00AC3EB3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 20BA8D2826163FD700AC3EB3;
+					};
+				};
+			};
+			buildConfigurationList = 20BA8D2426163FD700AC3EB3 /* Build configuration list for PBXProject "ReadiOSMemory" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20BA8D2026163FD700AC3EB3;
+			productRefGroup = 20BA8D2A26163FD700AC3EB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20BA8D2826163FD700AC3EB3 /* ReadiOSMemory */,
+				20BA8D4326163FDA00AC3EB3 /* ReadiOSMemoryTests */,
+				20BA8D4E26163FDA00AC3EB3 /* ReadiOSMemoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20BA8D2726163FD700AC3EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BA8D3C26163FDA00AC3EB3 /* LaunchScreen.storyboard in Resources */,
+				20BA8D3926163FDA00AC3EB3 /* Assets.xcassets in Resources */,
+				20BA8D3726163FD700AC3EB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BA8D4226163FDA00AC3EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BA8D4D26163FDA00AC3EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20BA8D2526163FD700AC3EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BA8D3426163FD700AC3EB3 /* ViewController.m in Sources */,
+				20BA8D2E26163FD700AC3EB3 /* AppDelegate.m in Sources */,
+				20BA8D3F26163FDA00AC3EB3 /* main.m in Sources */,
+				20BA8D3126163FD700AC3EB3 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BA8D4026163FDA00AC3EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BA8D4926163FDA00AC3EB3 /* ReadiOSMemoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BA8D4B26163FDA00AC3EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BA8D5426163FDA00AC3EB3 /* ReadiOSMemoryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20BA8D4626163FDA00AC3EB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20BA8D2826163FD700AC3EB3 /* ReadiOSMemory */;
+			targetProxy = 20BA8D4526163FDA00AC3EB3 /* PBXContainerItemProxy */;
+		};
+		20BA8D5126163FDA00AC3EB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20BA8D2826163FD700AC3EB3 /* ReadiOSMemory */;
+			targetProxy = 20BA8D5026163FDA00AC3EB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20BA8D3526163FD700AC3EB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20BA8D3626163FD700AC3EB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20BA8D3A26163FDA00AC3EB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20BA8D3B26163FDA00AC3EB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20BA8D5626163FDA00AC3EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20BA8D5726163FDA00AC3EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20BA8D5926163FDA00AC3EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CBDJXL33W;
+				INFOPLIST_FILE = ReadiOSMemory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hamry.ReadiOSMemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20BA8D5A26163FDA00AC3EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CBDJXL33W;
+				INFOPLIST_FILE = ReadiOSMemory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hamry.ReadiOSMemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20BA8D5C26163FDA00AC3EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CBDJXL33W;
+				INFOPLIST_FILE = ReadiOSMemoryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hamry.ReadiOSMemoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadiOSMemory.app/ReadiOSMemory";
+			};
+			name = Debug;
+		};
+		20BA8D5D26163FDA00AC3EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CBDJXL33W;
+				INFOPLIST_FILE = ReadiOSMemoryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hamry.ReadiOSMemoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadiOSMemory.app/ReadiOSMemory";
+			};
+			name = Release;
+		};
+		20BA8D5F26163FDA00AC3EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CBDJXL33W;
+				INFOPLIST_FILE = ReadiOSMemoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hamry.ReadiOSMemoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReadiOSMemory;
+			};
+			name = Debug;
+		};
+		20BA8D6026163FDA00AC3EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CBDJXL33W;
+				INFOPLIST_FILE = ReadiOSMemoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hamry.ReadiOSMemoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReadiOSMemory;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20BA8D2426163FD700AC3EB3 /* Build configuration list for PBXProject "ReadiOSMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BA8D5626163FDA00AC3EB3 /* Debug */,
+				20BA8D5726163FDA00AC3EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20BA8D5826163FDA00AC3EB3 /* Build configuration list for PBXNativeTarget "ReadiOSMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BA8D5926163FDA00AC3EB3 /* Debug */,
+				20BA8D5A26163FDA00AC3EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20BA8D5B26163FDA00AC3EB3 /* Build configuration list for PBXNativeTarget "ReadiOSMemoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BA8D5C26163FDA00AC3EB3 /* Debug */,
+				20BA8D5D26163FDA00AC3EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20BA8D5E26163FDA00AC3EB3 /* Build configuration list for PBXNativeTarget "ReadiOSMemoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BA8D5F26163FDA00AC3EB3 /* Debug */,
+				20BA8D6026163FDA00AC3EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20BA8D2126163FD700AC3EB3 /* Project object */;
+}
